@@ -1,0 +1,7 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-left: 1px solid #dddddd35;
+  border-right: 1px solid #dddddd35;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "chat-starter",
+  "private": true,
+  "proxy": "https://firebasestorage.googleapis.com/v0/b/react-chat-app-382ae.appspot.com/o?name=images%2FTue%20Jun%2018%202024%2021%3A45%3A24%20GMT%2B0300%20(East%20Africa%20Time)background-img1.jpg",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "emoji-picker-react": "^4.10.0",
+    "firebase": "^10.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^10.0.5",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
